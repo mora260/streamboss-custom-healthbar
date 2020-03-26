@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plain Health Bar</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="bar.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+
+    <div class="boss-container">
+        <img class="boss-img" id="boss-avatar" src="assets/ganondorf.jpg">
+        <span class="boss-name" id="boss-name"></span>
+        <div class="boss-health">
+            <span id='current_health'>0</span>/<span id='total_health'>0</span>
+        </div>
+        <div class="boss-health-bar-outer"></div>
+        <div class="boss-health-bar-inner"></div>
+        <div class="message" id="message"></div>
+        <div class="damage" id="damage"></div>
+    </div>
+
+</body>
+</html>
+
+
